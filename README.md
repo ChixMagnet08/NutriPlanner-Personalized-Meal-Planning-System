@@ -1,5 +1,3 @@
-# NutriPlanner-Personalized-Meal-Planning-System
-
 <p align="center">
   <img src="NutriPlanner.jpeg" width="100" />
 </p>
@@ -55,16 +53,16 @@ Contribution: Supports better health outcomes by ensuring adherence to medicatio
 The project incorporates Object-Oriented Programming (OOP) principles to ensure modularity, reusability, and clear structure.
 
 1. **Encapsulation**  
-   - Hides internal data and provides controlled access through getters and setters (e.g., `User` class and `UserValidator` methods).  
+   - Store user details (e.g., age, weight, dietary restrictions) and meal data as private fields with public methods for access and modification.  
 
 2. **Inheritance**  
-   - Promotes code reuse; `Donor` inherits from `User` to access its properties and methods.  
+   - A Meal parent class with subclasses like Breakfast, Lunch, and Dinner.  
 
 3. **Polymorphism**  
-   - Allows different classes to define unique implementations of a method (e.g., `DonationType` with abstract `confirmAndProcessDonation` method).  
+   - Override a suggestMeal method to provide unique meal options for each subclass..  
 
 4. **Abstraction**  
-   - Hides unnecessary details; `User` class provides abstracted methods like `getName()` and `verifyPin()` for interacting with user data.  
+   -Use an interface MealPlanner with methods like generatePlan(), viewMeals(), and trackNutrients().
 
 ---
 
