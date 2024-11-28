@@ -1,7 +1,7 @@
 # NutriPlanner-Personalized-Meal-Planning-System
 
 <p align="center">
-  <img src="resources/logo.jpg" width="100" />
+  <img src="NutriPlanner.jpeg" width="100" />
 </p>
 
 <h1 align="center">NutriPlanner-Personalized-Meal-Planning-System</h1>
@@ -43,7 +43,7 @@ Contribution: Supports better health outcomes by ensuring adherence to medicatio
 
 
 <p>
-  <img src="resources/SDG3.jpg" alt="SDG 3" width="150" />  
+  <img src="SDG3.jpg" alt="SDG 3" width="150" />  
   <br>
   <em>SDG 3: Supporting the health and well-being of Human.</em>
 </p>
